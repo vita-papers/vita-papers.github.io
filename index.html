@@ -509,17 +509,15 @@
         to flagging when something has gone wrong.
       </p>
       <ul class="topics__list">
-	<li><span class="topic-num">/08</span> Egocentric Video</li>
-        <li><span class="topic-num">/01</span> Temporal Action Segmentation</li>
-        <li><span class="topic-num">/02</span> Action Detection &amp; Recognition</li>
-        <li><span class="topic-num">/04</span> Mistake Recognition</li>
-        <li><span class="topic-num">/05</span> Action Anticipation</li>
-        <li><span class="topic-num">/03</span> Progress Estimation</li>
-        <li><span class="topic-num">/07</span> Vision–Language Models</li>
-	<li><span class="topic-num">/09</span> Instruction Generation</li>
-	<li><span class="topic-num">/06</span> Skill Assessment</li>
-        <li><span class="topic-num">/10</span> Augmented Reality (AR) Assistance</li>
-        <li><span class="topic-num">/11</span> Datasets &amp; Benchmarks</li>
+	<li><span class="topic-num">/01</span> Egocentric Video</li>
+        <li><span class="topic-num">/02</span> Temporal Action Segmentation and Detection</li>
+        <li><span class="topic-num">/03</span> Mistake Recognition</li>
+        <li><span class="topic-num">/04</span> Action Anticipation</li>
+        <li><span class="topic-num">/05</span> Progress Estimation</li>
+        <li><span class="topic-num">/06</span> Vision–Language Models</li>
+	<li><span class="topic-num">/07</span> Instruction Generation</li>
+	<li><span class="topic-num">/08</span> Skill Assessment</li>
+        <li><span class="topic-num">/09</span> Datasets &amp; Benchmarks</li>
       </ul>
     </section>
 
@@ -612,8 +610,7 @@
        ================================================================= */
 
     const CATEGORIES = {
-      "tas": 			      "Temporal Action Segmentation",
-      "action-detection":             "Action Detection",
+      "tas": 			      "Temporal Action Segmentation and Detection",
       "progress-estimation":          "Progress Estimation",
       "mistake-recognition":          "Mistake Recognition",
       "action-anticipation":          "Action Anticipation",
@@ -683,7 +680,7 @@
         title: "HoloAssist: An Egocentric Human Interaction Dataset for Interactive AI Assistants in the Real World",
         venue: "ICCV",
         year: 2023,
-        categories: ["dataset", "egocentric", "mistake-recognition", "augmented-reality"],
+        categories: ["dataset", "egocentric", "mistake-recognition"],
         links: {
           pdf: "https://arxiv.org/abs/2309.17024",
           project: "https://holoassist.github.io/",
@@ -719,7 +716,7 @@
         title: "ActionFormer: Localizing Moments of Actions with Transformers",
         venue: "ECCV",
         year: 2022,
-        categories: ["action-detection"],
+        categories: ["tas"],
         links: {
           pdf: "https://arxiv.org/abs/2202.07925",
           code: "https://github.com/happyharrycn/actionformer_release",
@@ -810,7 +807,7 @@
         authors: "D. Chatterjee, E. Remelli, Y. Song, B. Tekin, et al.",
         venue: "ICCV",
         year: 2025,
-        categories: ["vision-language", "action-detection", "action-anticipation"],
+        categories: ["vision-language", "tas", "action-anticipation"],
         links: {
           pdf: "https://openaccess.thecvf.com/content/ICCV2025/papers/Chatterjee_Streaming_VideoLLMs_for_Real-Time_Procedural_Video_Understanding_ICCV_2025_paper.pdf",
           project: "https://dibschat.github.io/ProVideLLM/",
